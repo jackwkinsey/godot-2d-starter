@@ -26,8 +26,10 @@ Here's is what I added:
     - *Test Width*: 1280
     - *Test Height*: 720
   - **Display -> Stretch**
-    - *Mode*: 2d
+    - *Mode*: viewport
     - *Aspect*: keep
+  - **Rendering -> Quality -> 2d**
+    - *Use Pixel Snap*: true
   - **Input Map**: I set up some input mappings as well.
     - For the directional inputs (*ui_up*, *ui_down*, *ui_left*, & *ui_right*), I added the Left Joystick Axis so your gamepad's left stick works for directional input (not sure why this isn't set by default since the D-Pad is setup by default 🤷‍♀️).
     - I also mapped **Z** to *ui_accept*, **C** to *ui_select*, and **X** to *ui_cancel*. These are just personal preference mappings. Feel free to change these to suit your needs for your project!
@@ -40,3 +42,7 @@ If you have any settings that you like to have setup by default when working on 
 
 
 🍻 Cheers & Happy Coding! 💖
+
+## 🎯 Changelog
+
+- **13 May 2020**: Updated the display stretch mode to `viewport` and turned on pixel snap per suggestion from Twitter discussion.
