@@ -14,6 +14,7 @@ Not a ton since it is a bare-bones starter project. It's meant to allow you to f
 
 Here's is what I added:
 
+- **Git Ignore file**: This is a dead simple ignore file that just adds common directories/files for Godot projects. It was created by [gitignore.io](https://www.gitignore.io).
 - **A pixel art icon**: instead of the regular one, you'll see a 32x32 pixel art icon based on the Godot mascot. This will allow you to see that the pixels are sharp for your assets.
 - **Default import settings**: I setup the texture import settings to default to *2D Pixel*. I think this should carry over if you download this repo since it is a project setting. If this doesn't work (i.e. you start importing your own pixel art and it looks blurry), you can change this in the *Import* tab of the editor (next to the *Scene* tab by default). Simply click on *Preset* -> *2D Pixel* and then the **Reimport** button. Then click on *Preset* -> *Set as Default for 'Texture'*.
 - **Basic World scene**: this scene just displays the pixel art icon in the center of the screen. It is also located in the *Scenes* folder to hopefully encourage project organization. 😉
